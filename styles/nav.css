@@ -1,7 +1,7 @@
 /* Common nav styles */
 .navigation-wrapper {
-    height: 190px;
-    background-color: rgb(0, 0, 0);
+    height: 180px;
+    background-color: white;
     color: palevioletred;
     /* Flexbox container */
     display: flex;
@@ -43,7 +43,7 @@
 .navigation-wrapper > .center-column {
     display: grid;
     grid-template-columns: 1fr;
-    grid-gap: 42px;
+    grid-gap: 35px;
     width: 500px;
 }
 
@@ -53,7 +53,7 @@
 }
 
 .navigation-wrapper > .center-column > .banner-image img {
-    width: 216px;
+    width: 230px;
     height: 100%;
 }
 

@@ -8,3 +8,54 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Dancing Script', cursive;
 }
+
+/* Footer styles */
+.footer {
+    background-color: white;
+    color: palevioletred;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    margin-top: -4px;
+}
+
+.footer > .logo-footer img {
+    width: 180px;
+    height: 100%;
+}
+
+.footer > .footer-phone-hours span {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1em;
+    letter-spacing: 2px;
+}
+
+.footer > .footer-phone-hours > .hours {
+    color: grey;
+}
+
+.footer > .link-wrapper {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    width: 400px;
+}
+
+.footer > .social-media-icons-wrapper {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer > .social-media-icons-wrapper a {
+    font-size: 1.5em;
+    transition: 0.5s;
+}
+
+.footer > .social-media-icons-wrapper a:hover {
+    color: rgb(5, 5, 5);
+}
