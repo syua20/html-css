@@ -104,3 +104,25 @@ h1, h2, h3, h4, h5, h6 {
     padding: 3px;
     text-align: center;
 }
+
+/* Page container styles */
+.page-container {
+    display: flex;
+    justify-content: center;
+}
+
+.page-container > .content-wrapper {
+    width: 1000px;
+}
+
+.page-container > .content-wrapper > #about-us {
+    width: 350px;
+    margin: 15px 20px 20px 0px;
+    float: left;
+    border: 5px solid darkgrey;
+}
+
+.page-container > .content-wrapper p {
+    letter-spacing: 2px;
+    line-height: 30px;
+}
