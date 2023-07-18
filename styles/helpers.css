@@ -4,3 +4,10 @@
     width: 100%;
     background-color: whitesmoke;
 }
+
+.square-text-wrapper h1::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f21e";
+    font-weight: 900;
+    letter-spacing: 1px;
+}
