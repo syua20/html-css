@@ -2,7 +2,7 @@
     text-align: center;
     color: palevioletred;
     background-color: whitesmoke;
-    margin: 0px;
-    width: 1500px;
+    margin: auto;
+    width: fit-content;
     padding: 50px;
 }
