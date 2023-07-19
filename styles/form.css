@@ -8,10 +8,16 @@
     padding: 1.5rem 2rem;
     border-radius: 5px;
     border: none;
-    border-bottom: 3px solid palevioletred;
+    border-bottom: 3px solid black;
     width: 100%;
     display: block;
     transition: all 0.3s;
+}
+
+.form input:focus {
+    outline: none;
+    box-shadow: 0rem 1rem 2rem grey;
+    border-bottom: 3px solid palevioletred;
 }
 
 .form textarea {
@@ -20,7 +26,25 @@
     height: 250px;
     font-size: 1.5rem;
     border-radius: 5px;
-    border: 3px solid palevioletred;
+    border: 3px solid black;
     padding: 1.5rem 2rem;
     transition: all 0.3s;
+}
+
+.form textarea:focus {
+    outline: none;
+    box-shadow: 0rem 1rem 2rem grey;
+    border: 3px solid palevioletred;
+}
+
+.form label {
+    font-size: 1.2em;
+    font-weight: 700;
+    margin-left: 2rem;
+    margin-top: 0.8rem;
+    display: block;
+    transition: all 0.3s;
+    color: palevioletred;
+    /* visibility */
+    /* opacity */
 }
