@@ -5,6 +5,12 @@
     background-color: whitesmoke;
 }
 
+.spacer10 {
+    height: 50px;
+    width: 100%;
+    background-color: whitesmoke;
+}
+
 .square-text-wrapper h1::before {
     font-family: "Font Awesome 5 Free";
     content: "\f21e";

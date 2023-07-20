@@ -37,6 +37,14 @@
     border: 3px solid palevioletred;
 }
 
+.form input::-webkit-input-placeholder, .form textarea::-webkit-input-placeholder {
+    color: darkgrey;
+}
+
+.form input:focus::-webkit-input-placeholder, .form textarea:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
 .form label {
     font-size: 1.2em;
     font-weight: 700;
@@ -45,6 +53,12 @@
     display: block;
     transition: all 0.3s;
     color: palevioletred;
-    /* visibility */
-    /* opacity */
+    visibility: hidden;
+    opacity: 0;
+}
+
+.form input:focus + label, .form textarea:focus + label {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(1rem);
 }
