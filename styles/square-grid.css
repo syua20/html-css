@@ -27,6 +27,7 @@
     align-items: center;
     flex-direction: column;
     padding: 40px;
+    line-height: 35px;
 }
 
 .square > .square-text-wrapper h1 {

@@ -2,9 +2,10 @@
 
 body {
     margin: 0px;
-    font-family: 'Lugrasimo', cursive;
+    font-family: 'Pangolin', cursive;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Dancing Script', cursive;
+    font-size: 1.5em;
+    font-family: 'Agdasima', sans-serif;
 }
