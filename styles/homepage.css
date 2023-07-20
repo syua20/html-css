@@ -74,3 +74,9 @@
 .features-section > .columns-wrapper > .column :nth-child(3) {
     letter-spacing: 2px;
 }
+
+/* Audio */
+.audio {
+    display: flex;
+    justify-content: center;
+}
